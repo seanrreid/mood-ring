@@ -1,5 +1,3 @@
-import "./styles.css";
-
 const submitMood = document.querySelector('#submitMood');
 
 
@@ -15,7 +13,7 @@ submitMood.addEventListener('click', function(event) {
     case 'Very Happy' :
       classes.toggle('very-happy-mood')
       break
-    case 'Happy' : 
+    case 'Happy' :
       classes.toggle('happy-mood')
       break
     case 'Not So Happy':
