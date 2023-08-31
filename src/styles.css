@@ -1,0 +1,25 @@
+body {
+  font-family: sans-serif;
+}
+
+.mood {
+  color: white;
+  padding: 8px;
+  line-height: 1;
+}
+
+.default-mood {
+  background-color: #2e77ff;
+}
+
+.not-so-happy-mood {
+  background-color: red;
+}
+
+.happy-mood {
+  background-color: green;
+}
+
+.very-happy-mood {
+  background-color: #e051ff;
+}
